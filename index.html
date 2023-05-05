@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital@1&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+        body
+        {
+            overflow-x: hidden;
+        }
+        .para1
+        {
+            display: flex;
+            flex-direction: row;
+            position: fixed;
+            top:1px;
+            left: 3px;
+            width:1925px;
+            height: 200px;
+            background-color: rgb(191, 238, 238);
+        }
+       .new1 > li
+        {
+            list-style: none;
+            margin: 10px;
+        }
+        .new1
+        {
+            display: flex;
+            position: fixed;
+            top:100px;
+            right: 10px;
+        }
+        button
+        {
+            background-color: rgb(5, 236, 228);
+            padding: 10px;
+            margin:10px;
+        }
+        button:hover
+        {
+            background-color: azure;
+            cursor:pointer;
+            border: 1px solid black;
+
+        }
+        .c1
+        {
+            font-size: 5cm;
+            z-index: 10;
+        }
+        .logo
+        {
+            display: flex;
+            justify-content:start;
+            position: absolute;
+            top:-140px;
+            font-family: 'EB Garamond', serif;
+        }
+        .photo >img
+        {
+            border-radius: 50%;
+            position: absolute;
+            height: 700px;
+            width:700px;
+            top:130px;
+            right:-89px;
+            z-index: -1;
+
+        }
+        section >.paragr
+        {
+            height: 400px;
+            width: 1200px;
+            position: relative;
+            top:300px;
+            left: 10px;
+            font-family: 'EB Garamond', serif;
+            z-index: -1;
+            font-size: .8cm;
+        }
+        .paragr >.span1{
+            font-size: 3cm;
+            color: aqua;
+            font-family: 'EB Garamond', serif;
+        }
+        .paragr >.span2{
+            font-size: 1.5cm;
+        }
+        .span3{
+            color: aqua;
+        }
+        p{
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            font-size: .5cm;
+        }
+
+        /* ICONS */
+        .iconp
+        {
+            position: fixed;
+            right: 50px;
+            bottom: 10px;
+        }
+        .icon{
+            display:flex;
+            flex-direction: row;
+            list-style: none;
+        }
+        .icon > li{
+            font-size: 1.2cm;
+            padding: 12px;
+            margin: 12px;
+            cursor: pointer;
+        }
+
+        .project
+        {
+            height: 400px;
+            width: 900px;
+            position:absolute;
+            bottom: -500px;
+            left: 50px;
+            z-index: -1;
+        }
+
+        .heading1
+        {
+            font-size: 2cm;
+            position: absolute;
+            bottom: -250px;
+            right: 200px;
+            font-family: 'EB Garamond', serif;
+        }
+
+        .paragr1
+        {
+            font-family: 'EB Garamond', serif;
+            height:400px;
+            width: 800px;
+            position: absolute;
+            bottom: -900px;
+            right: 70px;
+        }
+        @media (min-width:725px)
+        {
+        .para1
+        {
+            display: flex;
+            flex-direction: row;
+            position: fixed;
+            top:1px;
+            left: 3px;
+            width:1925px;
+            height: 100px;
+            background-color: rgb(191, 238, 238);
+        }
+       .new1 > li
+        {
+            list-style: none;
+            margin: 5px;
+        }
+        .new1
+        {
+            display: flex;
+            position: fixed;
+            top:10px;
+            right: 100px;
+            width: 200px;
+        }
+        button
+        {
+            background-color: rgb(5, 236, 228);
+            padding: 5px;
+            margin:5px;
+        }
+        button:hover
+        {
+            background-color: azure;
+            cursor:pointer;
+            border: 1px solid black;
+
+        }
+        .c1
+        {
+            position: fixed;
+            font-size: 1.9cm;
+            z-index: 5;
+        }
+        .logo
+        {
+            display: flex;
+            justify-content:start;
+            position: absolute;
+            top:-50px;
+        }
+        .photo
+        {
+            position: relative;
+            right: 100px;
+        }
+        .paragr
+        {
+            height: 200px;
+            width: 1200px;
+            position: absolute;
+            top:400px;
+            left:20px;
+            font-family: 'EB Garamond', serif;
+            z-index: -1;
+        }
+        .span1{
+            font-size: 1.5cm;
+            color: aqua;
+            font-family: 'EB Garamond', serif;
+        }
+        .span2{
+            font-size: .8cm;
+        }
+        .span3{
+            color: aqua;
+        }
+        p{
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            font-size: .5cm;
+        } 
+        }
+    </style>
+</head>
+<body>
+    <!-- <div class="th"></div> -->
+    <header> 
+        <div class="para1">
+            <ul class="new1">
+            <li><a href="" title="Home"><button>Home</button></a></li>
+            <li><a href="" title="Content"><button>Content</button></a></li>
+            <li><a href="" title="About"><button>ABOUT</button></a></li>
+            <li><a href="" title="Login"><button>Login</button></a></li>
+            </ul>
+        </div>
+        <div class="logo">
+            <h1 class="c1" title="BKagne">BKagne.com</h1>
+        </div>
+    </header>
+    <section>
+        <div class="photo"><img src="logo_bk.jpg" alt="Balaji Kagne" title="balaji kagne"></div>
+        <p class="paragr">
+            <span class="span1">"Hello and welcome to my website! My name is Balaji</span>
+            <br>
+            <span class="span2">,and I'm excited to share a little bit about myself with you.
+                I'm a software developer based in pune. I've always been passionate about <span class="span3">website design, and I love to coding</span>.</span>
+            
+            On this website, you'll find information about my work, my skills, and my experiences. You'll also get a glimpse into my personal life and the things that matter to me.
+            
+            Whether you're here to learn more about me, to collaborate on a project, or simply to connect with like-minded individuals, I hope you'll find what you're looking for. So take a look around, and don't hesitate to get in touch if you have any questions or just want to say hi.
+            
+            Thank you for visiting my website, and I look forward to connecting with you soon!"
+            </p>
+            <br>
+            <h1 class="heading1">My PBL project</h1>
+            <BR></BR>
+            <img src="pro-img.png" alt="project" class="project" title="KBOOKS">
+            <br>
+            <p class="paragr1">I'm thrilled to announce that I've successfully created a website for books using HTML, CSS, and 
+                JavaScript! The process involved using HTML to structure the content, CSS to style the website, and 
+                JavaScript to add interactivity and functionality.
+                To begin, I created an HTML file that included the essential elements of a website such as the header, 
+                navigation, main content, and footer. Within the main content, I created sections for different book 
+                categories, such as fiction, non-fiction, and biographies.
+                Using CSS, I customized the website's appearance by adding fonts, colors, and layouts that reflected 
+                the website's theme. I also made the website responsive, so it would adjust to different screen sizes 
+                and be accessible on mobile devices.
+                Using JavaScript, I added various features to the website, including a search bar, filtering options, and 
+                pop-up windows for book descriptions, reviews, and author bios. I also added a shopping cart feature 
+                that allowed users to purchase books directly from the website.
+                Lastly, I optimized the website for search engines by using relevant keywords, creating meta 
+                descriptions and tags, and ensuring that the website had a fast loading time and was mobile-friendly.
+                Overall, I'm proud of the final product and can't wait to share it with others who are passionate 
+                about books.</p>
+    </section>
+    <footer>
+        <nav class="iconp">
+            <ul class="icon">
+                <li title="Instagram"><i class="fa-brands fa-instagram"></i></li>
+                <li title="Whatsapp"><i class="fa-brands fa-whatsapp"></i></li>
+                <li title="Youtube"><i class="fa-brands fa-youtube"></i></li>
+            </ul>
+        </nav>
+
+        <p class="copyright"></p>
+    </footer>
+</body>
+</html>
